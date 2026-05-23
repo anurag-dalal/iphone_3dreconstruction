@@ -9,3 +9,4 @@ __pycache__/
 *.bak
 *.swp
 .vscode/
+output/bigger___half_office_frames/output_pointcloud.ply
