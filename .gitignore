@@ -1,0 +1,11 @@
+dataset/
+todo.pdf
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.bak
+*.swp
+.vscode/

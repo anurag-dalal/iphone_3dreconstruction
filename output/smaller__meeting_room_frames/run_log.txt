@@ -1,0 +1,231 @@
+Log: output/smaller__meeting_room_frames/run_log.txt
+Run started: 2026-05-23 02:23:12
+Dataset: /home/anurag/codes/iphone_3dreconstruction_v2/dataset/smaller__meeting_room_frames
+Output dir: output/smaller__meeting_room_frames
+
+[Stage 1] Back-projecting frames …
+  frame 000005:  22,440 points
+  frame 000006:  21,951 points
+  frame 000007:  21,961 points
+  frame 000008:  21,170 points
+  frame 000009:  21,196 points
+  frame 000010:  20,240 points
+  frame 000011:  23,218 points
+  frame 000012:  22,963 points
+  frame 000013:  22,841 points
+  frame 000014:  22,377 points
+  frame 000015:  23,269 points
+  frame 000016:  22,548 points
+  frame 000017:  22,616 points
+  frame 000018:  21,712 points
+  frame 000019:  21,945 points
+  frame 000020:  21,761 points
+  frame 000021:  21,587 points
+  frame 000022:  22,752 points
+  frame 000023:  22,622 points
+  frame 000024:  21,017 points
+  frame 000025:  18,899 points
+  frame 000026:  20,494 points
+  frame 000027:  22,054 points
+  frame 000028:  24,043 points
+  frame 000029:  25,215 points
+  frame 000030:  23,306 points
+  frame 000031:  22,745 points
+  frame 000032:  24,847 points
+  frame 000033:  23,825 points
+  frame 000034:  23,658 points
+  frame 000035:  24,555 points
+  frame 000036:  25,120 points
+  frame 000037:  23,359 points
+  frame 000038:  23,206 points
+  frame 000039:  25,240 points
+  frame 000040:  25,353 points
+  frame 000041:  25,262 points
+  frame 000042:  23,205 points
+  frame 000043:  24,772 points
+  frame 000044:  23,398 points
+  frame 000045:  17,192 points
+  frame 000046:  22,345 points
+  frame 000047:  23,353 points
+  frame 000048:  23,553 points
+  frame 000049:  20,973 points
+  frame 000050:  22,954 points
+  frame 000051:  25,011 points
+  frame 000052:  26,085 points
+  frame 000053:  25,610 points
+  frame 000054:  23,378 points
+  frame 000055:  18,472 points
+  frame 000056:  18,229 points
+  frame 000057:  21,744 points
+  frame 000058:  24,542 points
+  frame 000059:  24,782 points
+  frame 000060:  21,712 points
+  frame 000061:  22,527 points
+  frame 000062:  21,906 points
+  frame 000063:  23,707 points
+  frame 000064:  20,946 points
+  frame 000065:  23,292 points
+  frame 000066:  22,053 points
+  frame 000067:  20,473 points
+  frame 000068:  20,991 points
+  frame 000069:  25,249 points
+  frame 000070:  24,387 points
+  frame 000071:  21,820 points
+  frame 000072:  22,738 points
+  frame 000073:  20,045 points
+  frame 000074:  22,142 points
+  frame 000075:  21,054 points
+  frame 000076:  20,020 points
+  frame 000077:  24,469 points
+  frame 000078:  25,261 points
+  frame 000079:  23,925 points
+  frame 000080:  22,259 points
+  frame 000081:  17,750 points
+  frame 000082:  17,046 points
+  frame 000083:  16,177 points
+  frame 000084:  17,904 points
+  frame 000085:  23,260 points
+  frame 000086:  23,777 points
+  frame 000087:  24,945 points
+  frame 000088:  23,316 points
+  frame 000089:  25,707 points
+  frame 000090:  21,861 points
+  frame 000091:  22,697 points
+  total points (raw): 1,958,381
+  saved raw point cloud → output/smaller__meeting_room_frames/output_pointcloud.ply
+  → rendering GIF: output_pointcloud_360.gif …
+Loading  : output/smaller__meeting_room_frames/output_pointcloud.ply
+[1;33m[Open3D WARNING] geometry::TriangleMesh appears to be a geometry::PointCloud (only contains vertices, but no triangles).[0;m
+Type     : point cloud  (1,958,381 pts)
+Centroid : [ 1.226 -0.358 -0.349]
+Radius   : 5.674 m
+Rendering: 48 frames  640×480  axis=y  elevation=20.0°
+  frame  10/48
+  frame  20/48
+  frame  30/48
+  frame  40/48
+  frame  48/48
+Saved    : output/smaller__meeting_room_frames/output_pointcloud_360.gif  (4136 KB,  48 frames @ 20 fps)
+  [Stage 1 time: 5.9s]
+
+[Stage 2] Downsampling / filtering …
+  after voxel (0.05 m): 108,433 pts
+  after SOR: 104,846 pts
+  saved filtered point cloud → output/smaller__meeting_room_frames/downsampled_pointcloud.ply
+  → rendering GIF: downsampled_pointcloud_360.gif …
+Loading  : output/smaller__meeting_room_frames/downsampled_pointcloud.ply
+[1;33m[Open3D WARNING] geometry::TriangleMesh appears to be a geometry::PointCloud (only contains vertices, but no triangles).[0;m
+Type     : point cloud  (104,846 pts)
+Centroid : [ 1.154 -0.298 -0.42 ]
+Radius   : 5.679 m
+Rendering: 48 frames  640×480  axis=y  elevation=20.0°
+  frame  10/48
+  frame  20/48
+  frame  30/48
+  frame  40/48
+  frame  48/48
+Saved    : output/smaller__meeting_room_frames/downsampled_pointcloud_360.gif  (4579 KB,  48 frames @ 20 fps)
+  [Stage 2 time: 2.6s]
+
+[Stage 3] Surface reconstruction …
+  estimating normals …
+  Poisson reconstruction (depth=8) …
+[1;33m[Open3D WARNING] Write Ply clamped color value to valid range[0;m
+  saved Poisson mesh → output/smaller__meeting_room_frames/reconstructed_mesh_poisson.ply
+  → rendering GIF: reconstructed_mesh_poisson_360.gif …
+Loading  : output/smaller__meeting_room_frames/reconstructed_mesh_poisson.ply
+Type     : mesh  (186,268 verts, 368,833 tris)
+Centroid : [ 1.166 -0.361 -0.381]
+Radius   : 5.613 m
+Rendering: 48 frames  640×480  axis=y  elevation=20.0°
+  frame  10/48
+  frame  20/48
+  frame  30/48
+  frame  40/48
+  frame  48/48
+Saved    : output/smaller__meeting_room_frames/reconstructed_mesh_poisson_360.gif  (5398 KB,  48 frames @ 20 fps)
+  [Stage 3 time: 34.1s]
+
+[Stage 4] Extracting floor plan …
+  floor plane: -0.005x + 1.000y + 0.001z + 1.576 = 0
+  floor normal: [-0.005  1.     0.001]
+  floor median Y = -1.571 m   inliers: 9,518
+  points in height band (0.1–3.0 m): 87,055
+  occupancy grid: 171×177 cells at 5 cm/cell
+  vertical-extent filter (>= 0.8 m): 5,822 occupied cells (furniture surfaces removed)
+  component filter (min 0.5 m²): 67 → 1 regions
+  saved floor plan → output/smaller__meeting_room_frames/floor_plan.svg
+  [Stage 4 time: 0.4s]
+
+[Stage 5] Detecting architectural elements …
+  detected 20 planes  (21,335 unclassified pts)
+  floor @y=-1.57 m  ceiling @y=1.30 m  (11 horizontal planes)
+  9 wall planes
+  dominant wall directions: 3.5° and 93.5°  (XZ plane)
+  wall 0: window 1  2.30 m wide × 1.65 m tall
+  wall 0: window 2  2.30 m wide × 1.10 m tall
+  wall 6: window 3  0.50 m wide × 0.55 m tall
+  → 3 window(s),  0 door(s) detected
+  saved point cloud  → output/smaller__meeting_room_frames/architectural_elements.ply
+  → rendering GIF: architectural_elements_360.gif …
+Loading  : output/smaller__meeting_room_frames/architectural_elements.ply
+[1;33m[Open3D WARNING] geometry::TriangleMesh appears to be a geometry::PointCloud (only contains vertices, but no triangles).[0;m
+Type     : point cloud  (104,846 pts)
+Centroid : [ 1.154 -0.298 -0.42 ]
+Radius   : 5.679 m
+Rendering: 48 frames  640×480  axis=y  elevation=20.0°
+  frame  10/48
+  frame  20/48
+  frame  30/48
+  frame  40/48
+  frame  48/48
+Saved    : output/smaller__meeting_room_frames/architectural_elements_360.gif  (2071 KB,  48 frames @ 20 fps)
+  meshed floor   : 13,028 verts  25,668 tris
+  meshed ceiling : 3,078 verts  5,539 tris
+  meshed ceiling : 2,113 verts  3,704 tris
+  meshed ceiling : 1,970 verts  3,432 tris
+  meshed ceiling : 1,546 verts  2,611 tris
+  meshed ceiling : 5,379 verts  10,146 tris
+  meshed ceiling : 1,260 verts  2,027 tris
+  meshed ceiling : 1,638 verts  2,874 tris
+  meshed ceiling : 9,726 verts  19,191 tris
+  meshed ceiling : 1,611 verts  2,925 tris
+  meshed ceiling : 2,346 verts  4,390 tris
+  meshed wall    : 8,749 verts  17,170 tris
+  meshed wall    : 6,336 verts  12,371 tris
+  meshed wall    : 5,853 verts  11,481 tris
+  meshed wall    : 5,338 verts  10,442 tris
+  meshed wall    : 3,409 verts  6,510 tris
+  meshed wall    : 3,442 verts  6,641 tris
+  meshed wall    : 2,751 verts  5,147 tris
+  meshed wall    : 1,965 verts  3,605 tris
+  meshed wall    : 1,418 verts  2,495 tris
+  mesh quad window: 2.30 m × 1.65 m
+  mesh quad window: 2.30 m × 1.10 m
+  mesh quad window: 0.50 m × 0.55 m
+  saved mesh         → output/smaller__meeting_room_frames/architectural_elements_mesh.ply  (82,980 verts, 316,762 tris)
+  → rendering GIF: architectural_elements_mesh_360.gif …
+Loading  : output/smaller__meeting_room_frames/architectural_elements_mesh.ply
+Type     : mesh  (82,980 verts, 316,762 tris)
+Centroid : [ 1.104 -0.278 -0.502]
+Radius   : 5.732 m
+Rendering: 48 frames  640×480  axis=y  elevation=20.0°
+  frame  10/48
+  frame  20/48
+  frame  30/48
+  frame  40/48
+  frame  48/48
+Saved    : output/smaller__meeting_room_frames/architectural_elements_mesh_360.gif  (1479 KB,  48 frames @ 20 fps)
+
+  floor          :  13,029 pts  ( 12.4%)
+  ceiling        :  30,667 pts  ( 29.2%)
+  wall           :  39,261 pts  ( 37.4%)
+  window         :     554 pts  (  0.5%)
+  door           :       0 pts  (  0.0%)
+  unclassified   :  21,335 pts  ( 20.3%)
+  [Stage 5 time: 5.3s]
+
+Total pipeline time: 48.2s
+Run finished: 2026-05-23 02:24:01
+
+Done.

@@ -1,0 +1,334 @@
+Log: output/bigger___half_office_frames/run_log.txt
+Run started: 2026-05-23 03:02:18
+Dataset: /home/anurag/codes/iphone_3dreconstruction_v2/dataset/bigger___half_office_frames
+Output dir: output/bigger___half_office_frames
+
+[Stage 1] Back-projecting frames …
+  frame 000003:  26,043 points
+  frame 000004:  24,256 points
+  frame 000005:  25,078 points
+  frame 000006:  24,227 points
+  frame 000007:  24,697 points
+  frame 000008:  25,320 points
+  frame 000009:  25,799 points
+  frame 000010:  26,302 points
+  frame 000011:  26,651 points
+  frame 000012:  27,374 points
+  frame 000013:  27,315 points
+  frame 000014:  27,381 points
+  frame 000015:  26,875 points
+  frame 000016:  27,553 points
+  frame 000017:  27,648 points
+  frame 000018:  27,530 points
+  frame 000019:  27,136 points
+  frame 000020:  27,648 points
+  frame 000021:  26,176 points
+  frame 000022:  27,648 points
+  frame 000023:  27,056 points
+  frame 000024:  27,577 points
+  frame 000025:  27,515 points
+  frame 000026:  26,338 points
+  frame 000027:  27,580 points
+  frame 000028:  27,599 points
+  frame 000029:  24,610 points
+  frame 000030:  24,795 points
+  frame 000031:  20,697 points
+  frame 000032:  20,602 points
+  frame 000033:  26,258 points
+  frame 000034:  25,199 points
+  frame 000035:  24,083 points
+  frame 000036:  23,759 points
+  frame 000037:  25,721 points
+  frame 000038:  26,706 points
+  frame 000039:  23,373 points
+  frame 000040:  22,147 points
+  frame 000041:  22,099 points
+  frame 000042:  25,379 points
+  frame 000043:  25,620 points
+  frame 000044:  26,339 points
+  frame 000045:  23,699 points
+  frame 000046:  26,716 points
+  frame 000047:  25,080 points
+  frame 000048:  26,856 points
+  frame 000049:  25,999 points
+  frame 000050:  25,086 points
+  frame 000051:  26,855 points
+  frame 000052:  27,646 points
+  frame 000053:  27,648 points
+  frame 000054:  27,393 points
+  frame 000055:  23,805 points
+  frame 000056:  23,199 points
+  frame 000057:  23,353 points
+  frame 000058:  26,582 points
+  frame 000059:  23,963 points
+  frame 000060:  24,101 points
+  frame 000061:  26,321 points
+  frame 000062:  23,285 points
+  frame 000063:  21,670 points
+  frame 000064:  23,985 points
+  frame 000065:  27,616 points
+  frame 000066:  27,648 points
+  frame 000067:  25,482 points
+  frame 000068:  22,413 points
+  frame 000069:  21,468 points
+  frame 000070:  20,872 points
+  frame 000071:  21,878 points
+  frame 000072:  25,970 points
+  frame 000073:  26,393 points
+  frame 000074:  27,328 points
+  frame 000075:  27,633 points
+  frame 000076:  27,642 points
+  frame 000077:  27,114 points
+  frame 000078:  26,764 points
+  frame 000079:  18,855 points
+  frame 000080:  24,064 points
+  frame 000081:  25,565 points
+  frame 000082:  23,855 points
+  frame 000083:  24,822 points
+  frame 000084:  26,030 points
+  frame 000085:  25,948 points
+  frame 000086:  25,867 points
+  frame 000087:  25,554 points
+  frame 000088:  24,767 points
+  frame 000089:  20,429 points
+  frame 000090:  20,527 points
+  frame 000091:  20,098 points
+  frame 000092:  20,983 points
+  frame 000093:  20,349 points
+  frame 000094:  20,962 points
+  frame 000095:  20,013 points
+  frame 000096:  21,218 points
+  frame 000097:  21,078 points
+  frame 000098:  22,168 points
+  frame 000099:  21,931 points
+  frame 000100:  22,504 points
+  frame 000101:  22,943 points
+  frame 000102:  19,329 points
+  frame 000103:  16,636 points
+  frame 000104:  22,897 points
+  frame 000105:  22,523 points
+  frame 000106:  26,449 points
+  frame 000107:  23,126 points
+  frame 000108:  19,729 points
+  frame 000109:  24,210 points
+  frame 000110:  27,512 points
+  frame 000111:  27,417 points
+  frame 000112:  27,517 points
+  frame 000113:  26,320 points
+  frame 000114:  27,461 points
+  frame 000115:  26,253 points
+  frame 000116:  25,989 points
+  frame 000117:  25,176 points
+  frame 000118:  27,452 points
+  frame 000119:  27,281 points
+  frame 000120:  24,806 points
+  frame 000121:  25,709 points
+  frame 000122:  26,693 points
+  frame 000123:  26,923 points
+  frame 000124:  27,648 points
+  frame 000125:  23,326 points
+  frame 000126:  23,043 points
+  frame 000127:  23,680 points
+  frame 000128:  21,696 points
+  frame 000129:  23,546 points
+  frame 000130:  24,791 points
+  frame 000131:  25,660 points
+  frame 000132:  21,494 points
+  frame 000133:  25,534 points
+  frame 000134:  24,858 points
+  frame 000135:  27,195 points
+  frame 000136:  27,518 points
+  frame 000137:  27,170 points
+  frame 000138:  19,013 points
+  frame 000139:  27,645 points
+  frame 000140:  19,749 points
+  frame 000141:  20,130 points
+  frame 000142:  19,366 points
+  frame 000143:  21,176 points
+  frame 000144:  26,514 points
+  frame 000145:  21,508 points
+  frame 000146:  21,243 points
+  frame 000147:  22,548 points
+  frame 000148:  23,244 points
+  frame 000149:  25,787 points
+  frame 000150:  27,033 points
+  frame 000151:  27,295 points
+  frame 000152:  27,445 points
+  frame 000153:  26,524 points
+  frame 000154:  25,361 points
+  frame 000155:  20,625 points
+  frame 000156:  24,251 points
+  frame 000157:  25,771 points
+  frame 000158:  25,768 points
+  frame 000159:  23,949 points
+  frame 000160:  26,504 points
+  frame 000161:  24,328 points
+  frame 000162:  22,262 points
+  frame 000163:  22,644 points
+  frame 000164:  24,891 points
+  frame 000165:  27,195 points
+  frame 000166:  27,273 points
+  frame 000167:  26,789 points
+  frame 000168:  26,576 points
+  frame 000169:  24,817 points
+  frame 000170:  24,184 points
+  frame 000171:  26,025 points
+  frame 000172:  25,423 points
+  frame 000173:  27,647 points
+  frame 000174:  27,648 points
+  frame 000175:  27,647 points
+  frame 000176:  25,858 points
+  frame 000177:  25,748 points
+  frame 000178:  22,854 points
+  frame 000179:  22,135 points
+  frame 000180:  24,796 points
+  frame 000181:  25,170 points
+  frame 000182:  24,352 points
+  frame 000183:  23,029 points
+  frame 000184:  23,598 points
+  frame 000185:  24,074 points
+  total points (raw): 4,529,681
+  saved raw point cloud → output/bigger___half_office_frames/output_pointcloud.ply
+  → rendering GIF: output_pointcloud_360.gif …
+Loading  : output/bigger___half_office_frames/output_pointcloud.ply
+[1;33m[Open3D WARNING] geometry::TriangleMesh appears to be a geometry::PointCloud (only contains vertices, but no triangles).[0;m
+Type     : point cloud  (4,529,681 pts)
+Centroid : [-0.737  0.03   4.012]
+Radius   : 11.041 m
+Rendering: 48 frames  640×480  axis=y  elevation=20.0°
+  frame  10/48
+  frame  20/48
+  frame  30/48
+  frame  40/48
+  frame  48/48
+Saved    : output/bigger___half_office_frames/output_pointcloud_360.gif  (1599 KB,  48 frames @ 20 fps)
+  [Stage 1 time: 9.2s]
+
+[Stage 2] Downsampling / filtering …
+  after voxel (0.05 m): 270,780 pts
+  after SOR: 262,338 pts
+  saved filtered point cloud → output/bigger___half_office_frames/downsampled_pointcloud.ply
+  → rendering GIF: downsampled_pointcloud_360.gif …
+Loading  : output/bigger___half_office_frames/downsampled_pointcloud.ply
+[1;33m[Open3D WARNING] geometry::TriangleMesh appears to be a geometry::PointCloud (only contains vertices, but no triangles).[0;m
+Type     : point cloud  (262,338 pts)
+Centroid : [-1.137 -0.104  4.346]
+Radius   : 11.165 m
+Rendering: 48 frames  640×480  axis=y  elevation=20.0°
+  frame  10/48
+  frame  20/48
+  frame  30/48
+  frame  40/48
+  frame  48/48
+Saved    : output/bigger___half_office_frames/downsampled_pointcloud_360.gif  (1697 KB,  48 frames @ 20 fps)
+  [Stage 2 time: 2.3s]
+
+[Stage 3] Surface reconstruction …
+  estimating normals …
+  Poisson reconstruction (depth=8) …
+  saved Poisson mesh → output/bigger___half_office_frames/reconstructed_mesh_poisson.ply
+  → rendering GIF: reconstructed_mesh_poisson_360.gif …
+Loading  : output/bigger___half_office_frames/reconstructed_mesh_poisson.ply
+Type     : mesh  (69,959 verts, 138,631 tris)
+Centroid : [-1.518 -0.13   4.39 ]
+Radius   : 11.252 m
+Rendering: 48 frames  640×480  axis=y  elevation=20.0°
+  frame  10/48
+  frame  20/48
+  frame  30/48
+  frame  40/48
+  frame  48/48
+Saved    : output/bigger___half_office_frames/reconstructed_mesh_poisson_360.gif  (1918 KB,  48 frames @ 20 fps)
+  [Stage 3 time: 49.9s]
+
+[Stage 4] Extracting floor plan …
+  floor plane: 0.007x + 1.000y + 0.004z + 1.410 = 0
+  floor normal: [0.007 1.    0.004]
+  floor median Y = -1.428 m   inliers: 15,645
+  points in height band (0.1–3.0 m): 218,512
+  occupancy grid: 204×389 cells at 5 cm/cell
+  vertical-extent filter (>= 0.8 m): 11,306 occupied cells (furniture surfaces removed)
+  component filter (min 0.5 m²): 121 → 5 regions
+  saved floor plan → output/bigger___half_office_frames/floor_plan.svg
+  [Stage 4 time: 0.4s]
+
+[Stage 5] Detecting architectural elements …
+  detected 20 planes  (79,239 unclassified pts)
+  floor @y=-1.43 m  ceiling @y=1.22 m  (10 horizontal planes)
+  10 wall planes
+  dominant wall directions: 177.5° and 267.5°  (XZ plane)
+  wall 2: window 1  1.75 m wide × 1.60 m tall
+  wall 4: window 2  2.35 m wide × 1.70 m tall
+  wall 4: window 3  0.80 m wide × 0.90 m tall
+  wall 4: window 4  1.05 m wide × 0.40 m tall
+  wall 5: window 5  0.55 m wide × 0.60 m tall
+  wall 5: window 6  0.55 m wide × 0.65 m tall
+  wall 9: window 7  0.65 m wide × 0.45 m tall
+  → 7 window(s),  0 door(s) detected
+  saved point cloud  → output/bigger___half_office_frames/architectural_elements.ply
+  → rendering GIF: architectural_elements_360.gif …
+Loading  : output/bigger___half_office_frames/architectural_elements.ply
+[1;33m[Open3D WARNING] geometry::TriangleMesh appears to be a geometry::PointCloud (only contains vertices, but no triangles).[0;m
+Type     : point cloud  (262,338 pts)
+Centroid : [-1.137 -0.104  4.346]
+Radius   : 11.165 m
+Rendering: 48 frames  640×480  axis=y  elevation=20.0°
+  frame  10/48
+  frame  20/48
+  frame  30/48
+  frame  40/48
+  frame  48/48
+Saved    : output/bigger___half_office_frames/architectural_elements_360.gif  (822 KB,  48 frames @ 20 fps)
+  meshed floor   : 31,424 verts  62,064 tris
+  meshed ceiling : 3,691 verts  6,169 tris
+  meshed ceiling : 4,402 verts  7,511 tris
+  meshed ceiling : 5,181 verts  8,738 tris
+  meshed ceiling : 3,564 verts  5,690 tris
+  meshed ceiling : 10,265 verts  18,840 tris
+  meshed ceiling : 7,863 verts  14,307 tris
+  meshed ceiling : 6,048 verts  10,816 tris
+  meshed ceiling : 3,384 verts  5,702 tris
+  meshed ceiling : 28,531 verts  55,961 tris
+  meshed wall    : 19,948 verts  39,619 tris
+  meshed wall    : 9,917 verts  19,095 tris
+  meshed wall    : 8,866 verts  16,911 tris
+  meshed wall    : 7,643 verts  14,614 tris
+  meshed wall    : 7,051 verts  13,160 tris
+  meshed wall    : 6,159 verts  11,601 tris
+  meshed wall    : 4,935 verts  9,182 tris
+  meshed wall    : 5,226 verts  10,196 tris
+  meshed wall    : 4,628 verts  9,045 tris
+  meshed wall    : 3,576 verts  6,632 tris
+  mesh quad window: 1.75 m × 1.60 m
+  mesh quad window: 2.35 m × 1.70 m
+  mesh quad window: 0.80 m × 0.90 m
+  mesh quad window: 1.05 m × 0.40 m
+  mesh quad window: 0.55 m × 0.60 m
+  mesh quad window: 0.55 m × 0.65 m
+  mesh quad window: 0.65 m × 0.45 m
+  saved mesh         → output/bigger___half_office_frames/architectural_elements_mesh.ply  (182,358 verts, 691,762 tris)
+  → rendering GIF: architectural_elements_mesh_360.gif …
+Loading  : output/bigger___half_office_frames/architectural_elements_mesh.ply
+Type     : mesh  (182,358 verts, 691,762 tris)
+Centroid : [-0.89  -0.107  4.378]
+Radius   : 11.145 m
+Rendering: 48 frames  640×480  axis=y  elevation=20.0°
+  frame  10/48
+  frame  20/48
+  frame  30/48
+  frame  40/48
+  frame  48/48
+Saved    : output/bigger___half_office_frames/architectural_elements_mesh_360.gif  (601 KB,  48 frames @ 20 fps)
+
+  floor          :  31,424 pts  ( 12.0%)
+  ceiling        :  72,930 pts  ( 27.8%)
+  wall           :  77,950 pts  ( 29.7%)
+  window         :     795 pts  (  0.3%)
+  door           :       0 pts  (  0.0%)
+  unclassified   :  79,239 pts  ( 30.2%)
+  [Stage 5 time: 7.7s]
+
+Total pipeline time: 69.4s
+Run finished: 2026-05-23 03:03:28
+
+Done.
