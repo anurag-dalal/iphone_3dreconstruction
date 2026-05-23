@@ -225,10 +225,10 @@ Voxel downsampling at 0.05 m gives a density-uniform cloud without needing a ran
 **Surface reconstruction (Stage 3)**  
 Poisson reconstruction (`depth=8`) was chosen over Ball-Pivoting or Alpha Shapes because it produces a watertight, closed mesh even from non-uniform point densities, and Open3D's implementation is fast. The 1st-percentile density trim removes the low-confidence extrapolated boundary shell. Ball-Pivoting and Alpha Shapes are wired up and can be enabled in the config for comparison.
 
-**Floor plan (Stage 4)**  
+**Floor plan (Stage 4.1)**  
 Rather than project all wall-height points, a vertical-extent filter (`min_vertical_extent = 0.8 m`) keeps only columns of occupied cells that span at least 0.8 m. This removes furniture tops, tables, and chairs from the 2-D footprint, leaving only structural walls.
 
-**Architectural elements (Stage 5)**  
+**Architectural elements (Stage 4.2)**  
 Iterative RANSAC is preferred over a single-pass plane fit because it handles multi-plane scenes cleanly — each iteration removes the dominant plane's inliers before the next fit. The horizontal/wall classification thresholds (0.85 / 0.30) leave a small gap that catches near-vertical slanted surfaces as neither horizontal nor wall, preventing misclassification of angled furniture. The XZ histogram approach for dominant wall directions ensures window/door grids are axis-aligned with the actual room geometry rather than the world frame.
 
 ---
